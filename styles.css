@@ -1,0 +1,122 @@
+body{
+    background: hsl(30, 54%, 90%);
+}
+
+.main{
+    background: white;
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 30px;
+
+}
+img{
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.main_heading{
+    font-family: Young Serif;
+    font-weight: lighter;
+    font-size: 39px;
+}
+.para{
+    font-size: 16px;
+    font-family: Outfit;
+    font-weight: light;
+    color: hsl(24, 5%, 18%)
+}
+.prep{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding:25px;
+    font-family: Outfit;
+    background: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+h2{
+    margin-top: 0px;
+    color: hsl(332, 51%, 32%);
+}
+.items{
+    margin-bottom: 12px;
+}
+.items1{
+    margin-bottom: 12px;
+}
+li{
+    padding-left: 25px;
+    margin-left: 0px;
+}
+.list{
+    font-size: 16px;
+    color: #36454f;
+    margin-left: 0px;
+    padding-left: 25px;
+    font-family: Outfit;
+}
+.sub{
+        font-family: Young Serif;
+        font-weight: lighter;
+        color: hsl(14, 45%, 36%);
+}
+
+.items::marker{
+    color: hsl(332, 51%, 32%);
+}
+.items1::marker{
+    font-weight: bolder;
+    color: hsl(14, 45%, 36%);
+}
+hr{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: hsl(30, 18%, 87%);
+}
+.nutrition{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    width: 50%;
+    padding: 10px;
+    padding-left: 30px;
+    text-align: left;
+    font-weight: normal;
+}
+td{
+    font-weight: bold;
+    color:hsl(14, 45%, 36%)
+}
+.row{
+    border-bottom: 1px solid hsl(26, 4%, 66%);
+}
+tr{
+    font-family: Outfit;
+}
+
+@media (max-width: 500px) {
+    .main{
+        border-radius: 0px;
+        margin: 0px;
+        width: 100%;
+        height:100%;
+        overflow:visible;
+        padding-top: 0px;
+    }
+    img{
+        object-fit: cover;
+        width: 100%;
+        margin:0px;
+        padding:0px;
+        border-radius: 0px;
+    }
+    body{
+        padding:0px;
+        margin:0px;
+    }
+}
